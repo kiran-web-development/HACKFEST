@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import { Building, Settings as SettingsIcon, Save } from 'lucide-react';
+import DemoDataSeeder from '../DemoDataSeeder';
 
 export default function Settings() {
     const { user, updateOrgType } = useAuth();
@@ -68,6 +68,8 @@ export default function Settings() {
                     </button>
                 </div>
             </div>
+
+            <DemoDataSeeder />
         </div>
     );
 }

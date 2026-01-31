@@ -67,4 +67,5 @@ To test the PWA capabilities:
 4. Toggle "Offline" in DevTools Network tab to test caching.
 
 ## 👥 Contributors
+K  Muni Chenchu Reddy
 Built for Hackfest 2025.
